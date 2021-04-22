@@ -1,0 +1,142 @@
+/*****************************
+        Content Box
+******************************/
+
+.content-box-lg {
+    padding: 20px 0;
+}
+
+.content-box-md {
+    padding: 50px 0;
+    padding-left: 30px;
+}
+
+.content-box-sm {
+    padding: 50px 0;
+    padding-left: 30px;
+}
+
+/*****************************
+        Heading
+******************************/
+
+.horizontal-heading{
+    color: #6255a5;
+    font-family: "Open sans", sans-serif;
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 600;
+    margin: 0 0 30px 18px;
+}
+
+/*****************************
+        Header
+******************************/
+header{
+    height: 30px;
+}
+
+.navbar{
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+ul.nav li a:hover,
+ul.nav li a:focus{
+    background: none;
+    color: #6255a5;
+}
+
+ul.nav li a img{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 5px;
+}
+
+ul.nav li a{
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #333333;
+}
+
+.navbar-header img {
+    width: 200px;
+    height: 100%;
+}
+
+#logoutbtn {
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    background-color: #6255a5;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open sans", sans-serif;
+    width: 89px;
+    height: 30px;
+}
+
+/*****************************
+        Button
+******************************/
+
+input[type=file]{
+    position: absolute;
+    bottom: 110px;
+    opacity: 0;
+}
+
+.upload{
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    margin-left: 18px;
+    width: 705px;
+    height: 120px;
+    border-radius: 3px;
+}
+
+.upload img{
+    position: relative;
+    top: 30px;
+}
+
+/*****************************
+        Main
+******************************/
+
+label{
+    color: #333333;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+input[type=text],input[type=email],input[type=number],input[type=file]{
+    border: 1px solid #d1d1d1;
+    width: 705px;
+    height: 50px;
+    border-radius: 3px;
+    margin-left: 18px;
+    padding-left: 10px;
+}
+
+#submitbtn{
+    background-color: #6255a5;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    margin: 30px 0 0 15px;
+    line-height: 22px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}

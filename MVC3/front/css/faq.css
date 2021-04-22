@@ -1,0 +1,233 @@
+/*****************************
+        Content Box
+******************************/
+.content-box-lg {
+    padding: 20px 0;
+}
+
+.content-box-md {
+    padding: 20px 0;
+}
+
+.content-box-sm {
+    padding: 20px 0;
+}
+
+/*****************************
+        dropdown
+******************************/
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 180px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size: 30px;
+    padding: 12px 16px;
+    font-family: "Open sans", sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:nth-child(3) {
+    color: #6255a5;
+    text-transform: uppercase;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+
+/*****************************
+        Header
+******************************/
+header{
+    height: 40px;
+}
+
+.navbar{
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+ul.nav li a:hover,
+ul.nav li a:focus{
+    background: none;
+    color: #6255a5;
+}
+
+ul.nav li a img{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 5px;
+}
+
+ul.nav li a{
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 100%;
+    color: #333333;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.navbar-header img {
+    width: 200px;
+    height: 100%;
+}
+
+#loginbtn,#logoutbtn {
+    color: #fff;
+    border-radius: 3px;
+    background-color: #6255a5;
+    border: none;
+    font-size: 16px;
+    line-height: 22px;
+    position: relative;
+    bottom: 5px;
+    font-family: "Open sans", sans-serif;
+    width: 89px;
+    height: 30px;
+}
+
+/* ============== ============= 
+            FAQ 
+==============  ===============*/
+#faq {
+    margin: 20px 0;
+}
+.faq-heading {
+    background-image: url('../images/Front_images/images/banner.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.faq-heading p{
+    color: #fff;
+    font-size: 34px;
+    padding-top: 83px;
+}
+.faq-sub {
+    margin-top: 30px; 
+}
+.faq-sub-heading{
+    color: #6255a5;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.accordion {
+  background-color: #f3f3f3;
+  font-size: 18px;
+  height: 60px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+}
+.accoradion .active, .accordion:hover {
+  background-color: #d1d1d1;
+}
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.faq-sub .active:after {
+  content: "\2212";
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+/*****************************
+        Footer Text
+******************************/
+
+#copytext{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+    position: relative;
+    left: 40px;
+}
+
+/*****************************
+        Footer
+******************************/
+
+ul.social-list {
+    padding: 0;
+    margin-top: 10px;
+    padding-right: 200px;
+}
+
+ul.social-list li {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.social-list li a {
+    border: 18px solid #6255a5;
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+}
+
+ul.social-list li a i{
+    position: relative;
+    bottom: 8px;
+    right: 5px;
+}
+

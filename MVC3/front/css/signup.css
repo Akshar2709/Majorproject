@@ -1,0 +1,67 @@
+/*****************************
+        Body
+******************************/
+body{
+    background-image: url(../images/Front_images/images/login-bg-img.png);
+}
+
+.logo{
+    position: absolute;
+    left: 41%;
+    top: 70px;
+}
+
+#successnote{
+    color: lightgreen;
+}
+
+#signuppart{
+    height: 590px;
+    width: 400px;
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    left: 38%;
+    top: 150px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+input[type=email],input[type=password],input[type=text]{
+    width: 350px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+#signupbtn{
+    width: 350px;
+    background-color: #6255a5;
+    color: #fff;
+    margin: 15px 0 15px 10px;
+    border: none;
+    text-transform: uppercase;
+    height: 30px;
+}
+
+#signuppart label{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+#signuppart h2{
+    color: #6255a5;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 45px;
+}
+
+#signuppart p{
+    font-size: 10px;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+}
+
+#btnlink{
+    margin-left: 5px;
+}

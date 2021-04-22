@@ -1,0 +1,273 @@
+/*****************************
+        Content Box
+******************************/
+.content-box-lg {
+    padding: 20px 0;
+}
+
+.content-box-md {
+    padding: 20px 0;
+}
+
+.content-box-sm {
+    padding: 20px 0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: "Open Sans", sans-serif;
+}
+
+/*****************************
+        Header
+******************************/
+header{
+    height: 50px;
+}
+
+.navbar{
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+ul.nav li a:hover,
+ul.nav li a:focus{
+    background: none;
+    color: #6255a5;
+}
+
+ul.nav li a img{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 5px;
+}
+
+ul.nav li a{
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 100%;
+    color: #333333;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.navbar-header img {
+    width: 200px;
+    height: 100%;
+}
+
+#loginbtn {
+    color: #fff;
+    border-radius: 3px;
+    background-color: #6255a5;
+    border: none;
+    font-size: 16px;
+    line-height: 22px;
+    position: relative;
+    bottom: 5px;
+    font-family: "Open sans", sans-serif;
+    width: 89px;
+    height: 30px;
+}
+
+/*****************************
+        Heading
+******************************/
+
+.vertical-heading {
+    color: #6255a5;
+    margin-left: 80px;
+}
+
+.horizontal-heading {
+    color: #6255a5;
+    margin-top: 50px;
+}
+
+/*****************************
+        Home
+******************************/
+
+#home-content {
+    height: 500px;
+    background-image: url("../images/Front_images/images/banner.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#home-content-inner {
+    margin-left: 20px;
+    padding-top: 150px;
+}
+
+#home-heading h1 {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+
+#home-text p {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+}
+
+#home-btn {
+    text-transform: uppercase;
+    display: inline-block;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 2px;
+}
+
+#home-btn a {
+    color: #fff;
+}
+
+/*****************************
+        About
+******************************/
+#achieve{
+    background-color: lightgray;
+    height: 450px;
+}
+
+.achievepart {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.achievepart:nth-child(1){
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.achievepart:nth-child(2){
+    margin-left: 100px;
+}
+
+.achievepart a:nth-child(1){
+    border: 40px solid #fff;
+    margin-right: 10px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.achievepart a img{
+    position: relative;
+    right: 20px;
+    bottom: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.achievepart h5{
+    color: #6255a5;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+}
+
+.achievepart p{
+    font-family: "Open Sans", sans-serif;
+}
+
+/*****************************
+        Button
+******************************/
+
+.btn-general{
+    background-color: #6255a5;
+    width: 100px;
+    height: 30px;
+    padding: 10px 0;
+    line-height: 10px;
+    border: 1px solid #6255a5;
+    color: #fff;
+    border-right: 1px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+
+/*****************************
+        Customer
+******************************/
+
+.customerprofile{
+    margin-top: 50px;
+    margin-left: 75px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.1);
+}
+
+.customerprofile img{
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.customerprofile h2{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #6255a5;
+}
+
+.explanation p{
+    margin: 20px 0 20px 30px;
+}
+
+
+
+/*****************************
+        Footer Text
+******************************/
+
+#copytext{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+    position: relative;
+    left: 18px;
+}
+
+/*****************************
+        Footer
+******************************/
+
+ul.social-list {
+    padding: 0;
+    margin-top: 10px;
+    padding-right: 200px;
+}
+
+ul.social-list li {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.social-list li a {
+    border: 18px solid #6255a5;
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+}
+
+ul.social-list li a i{
+    position: relative;
+    bottom: 8px;
+    right: 5px;
+}
+

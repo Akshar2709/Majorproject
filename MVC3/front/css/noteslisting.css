@@ -1,0 +1,258 @@
+/*****************************
+        Content Box
+******************************/
+.content-box-lg {
+    padding: 20px 0;
+}
+
+.content-box-md {
+    padding: 20px 0;
+}
+
+.content-box-sm {
+    padding: 20px 0;
+}
+
+/*****************************
+        dropdown
+******************************/
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 180px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size: 30px;
+    padding: 12px 16px;
+    font-family: "Open sans", sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:nth-child(3) {
+    color: #6255a5;
+    text-transform: uppercase;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+/*****************************
+        Header
+******************************/
+header{
+    height: 40px;
+}
+
+.navbar{
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+ul.nav li a:hover,
+ul.nav li a:focus{
+    background: none;
+    color: #6255a5;
+}
+
+ul.nav li a img{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 5px;
+}
+
+ul.nav li a{
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    height: 100%;
+    color: #333333;
+    -webkit-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+.navbar-header img {
+    width: 200px;
+    height: 100%;
+}
+
+#logoutbtn, #loginbtn {
+    color: #fff;
+    border-radius: 3px;
+    background-color: #6255a5;
+    border: none;
+    font-size: 16px;
+    line-height: 22px;
+    position: relative;
+    bottom: 5px;
+    font-family: "Open sans", sans-serif;
+    width: 89px;
+    height: 30px;
+}
+
+/*****************************
+        Heading
+******************************/
+
+.vertical-heading{
+    color: #6255a5;
+    margin-left: 80px;
+}
+
+.horizontal-heading {
+    color: #6255a5;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+/*****************************
+        Upper
+******************************/
+
+input[type=text]{
+    height: 50px;
+    width: 90%;
+    border: none;
+}
+
+#searchfil{
+    display: inline-block;
+    margin-left: 50px;
+    border: 1px solid #d1d1d1;
+    width: 90%;
+}
+
+.filterpart{
+    margin-top: 10px;
+    margin-left: 35px;
+    height: 50px;
+    width: 203px;
+}
+
+.filterpart select{
+    border: 1px solid #d1d1d1;
+    height: 50px;
+    width: 203px;
+}
+
+
+/*****************************
+        Bottom
+******************************/
+
+#searchnotebg{
+    height: 250px;
+    background-image: url(../images/Front_images/images/banner.png);
+    position: relative;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#searchnotebg h2{
+    text-align: center;
+    color: #fff;
+    line-height: 52px;
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    top:75px;
+    left:40%;
+}
+
+.star img{
+    width: 20px; 
+}
+
+.searchpart{
+    border: 1px solid #d1d1d1;
+    box-shadow: 0px 0px 0px 2px rgba(0,0,0,0.1);
+    width: 450px;
+    margin: 10px 30px;
+    height: 470px;
+}
+
+
+.cont{
+    height: 60px;
+    color: #6255a5;
+}
+
+
+/*****************************
+        Footer Text
+******************************/
+
+#copytext{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+    position: relative;
+    left: 18px;
+}
+
+/*****************************
+        Footer
+******************************/
+
+ul.social-list {
+    padding: 0;
+    margin-top: 10px;
+    padding-right: 200px;
+}
+
+ul.social-list li {
+    display: inline-block;
+    padding: 0;
+}
+
+ul.social-list li a {
+    border: 18px solid #6255a5;
+    margin-right: 10px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 50%;
+    position: relative;
+    bottom: 10px;
+}
+
+ul.social-list li a i{
+    position: relative;
+    bottom: 8px;
+    right: 5px;
+}
+

@@ -1,0 +1,74 @@
+/*****************************
+        Body
+******************************/
+body{
+    background-image: url(../images/Front_images/images/login-bg-img.png);
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    left: 41%;
+    top: 110px;
+}
+
+#loginpart{
+    height: 400px;
+    width: 400px;
+    background-color: #fff;
+    border: none;
+    position: absolute;
+    left: 38%;
+    top: 190px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+input[type=email],input[type=password]{
+    width: 350px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+input[type=checkbox]{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
+#loginbtn{
+    width: 350px;
+    background-color: #6255a5;
+    color: #fff;
+    margin: 15px 0;
+    border: none;
+    border: none;
+    text-transform: uppercase;
+    height: 30px;
+}
+
+#loginpart label{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: 100;
+}
+
+#loginpart h2{
+    color: #6255a5;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 45px;
+}
+
+#loginpart p{
+    font-size: 10px;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+}
+
+#fpwd{
+    margin-left: 170px;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+}

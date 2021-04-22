@@ -1,0 +1,269 @@
+/*****************************
+        Content Box
+******************************/
+
+.content-box-lg {
+    padding: 20px 0;
+}
+
+.content-box-md {
+    padding: 50px 0;
+    padding-left: 30px;
+}
+
+.content-box-sm {
+    padding: 50px 0;
+    padding-left: 30px;
+}
+
+/*****************************
+        Heading
+******************************/
+
+.horizontal-heading{
+    color: #6255a5;
+    font-family: "Open sans", sans-serif;
+    font-size: 34px;
+    line-height: 38px;
+    font-weight: 600;
+    margin: 0 0 30px 18px;
+}
+
+/*****************************
+        Header
+******************************/
+header{
+    height: 30px;
+}
+
+.navbar{
+    width: 100%;
+    z-index: 9999;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+
+ul.nav li a:hover,
+ul.nav li a:focus{
+    background: none;
+    color: #6255a5;
+}
+
+ul.nav li a img{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    bottom: 5px;
+}
+
+ul.nav li a{
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #333333;
+}
+
+.navbar-header img {
+    width: 200px;
+    height: 100%;
+}
+
+#logoutbtn {
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    background-color: #6255a5;
+    font-size: 16px;
+    line-height: 22px;
+    font-family: "Open sans", sans-serif;
+    width: 89px;
+    height: 30px;
+}
+
+/*Hover Dropdown*/
+.notedropdown {
+  float: center;
+  overflow: hidden;
+}
+
+.notedropdown .dropbutton {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.notedropdown .dropbutton:hover{
+    color: #6255a5;   
+}
+
+.note-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.note-dropdown-content a{
+float:none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.note-dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.notedropdown:hover .note-dropdown-content {
+  display: block;
+}
+
+
+/*****************************
+        dropdown
+******************************/
+
+.dropbtn {
+    font-size: 16px;
+    border: none;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 5px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 180px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    font-size: 30px;
+    padding: 12px 16px;
+    font-family: "Open sans", sans-serif;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+/* DropDown */
+.nav-dropdown-item,
+.action-dropdown-item {
+    display: flex;
+    width: 200px;
+    padding: 5px 0 10px 10px;
+    background-color: #fff;
+    border: none;
+    -webkit-transition: all 500ms linear;
+    transition: all 500ms linear;
+}
+.nav-dropdown-item:hover,
+.action-dropdown-item:hover {
+    color: #fff;
+    background-color: #6255a5;
+}
+.nav-dropdown-item:last-of-type{
+    color: #6255a5;
+}
+.nav-dropdown-item:last-of-type:hover {
+    color: #fff;
+}
+
+/*****************************
+        Button
+******************************/
+
+input[type=file]{
+    position: relative;
+    bottom: 90px;
+    opacity: 0;
+}
+
+.upload{
+    border: 1px solid #d1d1d1;
+    text-align: center;
+    margin-left: 18px;
+    width: 705px;
+    height: 120px;
+    border-radius: 3px;
+}
+
+.upload img{
+    position: relative;
+    top: 30px;
+}
+
+/*****************************
+        Main
+******************************/
+
+label{
+    color: #333333;
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+    margin-left: 18px;
+}
+
+input[type=text],input[type=email],input[type=number],input[type=file],select{
+    border: 1px solid #d1d1d1;
+    width: 705px;
+    height: 50px;
+    border-radius: 3px;
+    margin-left: 18px;
+    padding-left: 10px;
+}
+
+#submitbtn{
+    background-color: #6255a5;
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 18px;
+    margin: 30px 0 0 15px;
+    line-height: 22px;
+    font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
+}
+
+/*****************************
+        Footer Text
+******************************/
+
+#copytext{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #333333;
+}
